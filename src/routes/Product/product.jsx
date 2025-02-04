@@ -43,7 +43,7 @@ function Product() {
         Link to product database.
       </p>
 
-      <Link to="/createbook">+ Add New Product</Link>
+      <Link to="/createProduct">+ Add New Product</Link>
 
       <h2>Product</h2>
       {/* <pre>{JSON.stringify(data, null, 2)}</pre> */}
