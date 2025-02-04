@@ -6,12 +6,12 @@ function Header() {
   return (
     <header>
       <Link to="/" className="logo">
-        <img src={logo} alt="CA" /> Cricket Authority
+        <img src={logo} alt="CA" />
       </Link>
 
       <nav>
         <NavLink to="/">Home</NavLink>
-        
+        <NavLink to="/product">Products</NavLink>        
         <NavLink to="/about">About</NavLink>
       </nav>
     </header>
