@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import SingleProduct from "./routes/Product/singleProduct";
 import CreateProduct from "./routes/Product/createProduct";
+import EditProduct from "./routes/Product/editProduct";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/about" element={ <About/> } />
           <Route path="/products/:slug" element={ <SingleProduct/> } />
           <Route path="/createProduct" element={ <CreateProduct/> } />
+          <Route path="/editproduct/:slug" element={ <EditProduct/> } />
         </Routes>
         <Footer/>
       </Router>
