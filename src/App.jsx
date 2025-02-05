@@ -5,8 +5,8 @@ import Product from "./routes/Product/product";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import SingleProduct from "./routes/Product/singleProduct";
+import EditProduct from "./routes/Product/editProduct"
 import CreateProduct from "./routes/Product/createProduct";
-import EditProduct from "./routes/Product/editProduct";
 
 
 function App() {
