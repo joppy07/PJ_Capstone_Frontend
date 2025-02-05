@@ -106,8 +106,8 @@ footer {
   gap: 0.6rem;
 }
 
-/* Books */
-ul.books {
+/* Products */
+ul.products {
   display: flex;
   list-style: none;
   padding: 0;
@@ -116,27 +116,27 @@ ul.books {
   gap: 10px;
 }
 
-ul.books li {
+ul.products li {
   flex: 1 0 21%;
 }
 
-ul.books li a {
+ul.products li a {
   align-items: center;
   display: flex;
   flex-direction: column;
 }
 
-ul.books img {
+ul.products img {
   max-height: 200px;
   border-radius: 5px;
 }
 
-ul.books h3 {
+ul.products h3 {
   text-align: center;
   font-weight: 300;
 }
 
-.bookdetails {
+.productdetails {
   display: flex;
   gap: 20px;
 }

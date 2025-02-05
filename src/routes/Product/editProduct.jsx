@@ -7,7 +7,7 @@ function editProduct() {
   const urlSlug = useParams();
   const baseUrl = `http://localhost:8000/api/products/${urlSlug.slug}`;
 
-  const [bookId, setProductId] = useState("");
+  const [productId, setProductId] = useState("");
   const [title, setTitle] = useState("");
   const [slug, setSlug] = useState("");
   const [stars, setStars] = useState(0);
